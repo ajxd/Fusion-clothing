@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="713dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/log1"
+            tools:ignore="ContentDescription,ImageContrastCheck,VisualLintBounds" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="723dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="24dp"
+            android:queryHint="Search Products"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="735dp"
+            android:layout_height="153dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="TODO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView"
+            app:srcCompat="@drawable/sale_facebook_post_1"
+            tools:ignore="ContentDescription,HardcodedText,UnknownId,VisualLintBounds" />
+
+        <ImageView
+            android:id="@+id/acc1"
+            android:layout_width="721dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="TODO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/poster"
+            app:srcCompat="@drawable/acc1"
+            tools:ignore="ContentDescription,HardcodedText,VisualLintBounds" />
+
+        <Button
+            android:id="@+id/browse_collection"
+            android:layout_width="143dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#74E91E63"
+            android:text="Browse Collection"
+            android:textColor="#FFF8F8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/acc1"
+            tools:ignore="HardcodedText,TextSizeCheck,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageView
+            android:id="@+id/poster2"
+            android:layout_width="397dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="TODO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/browse_collection"
+            app:srcCompat="@drawable/women"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <Button
+            android:id="@+id/browse_collections"
+            android:layout_width="143dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#74E91E63"
+            android:text="Browse Collection"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/poster2"
+            tools:ignore="HardcodedText,TextSizeCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/cartButton"
+            android:layout_width="49dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/cart_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/shopping"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="#74E91E63"
+            android:text="Logout"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/cartButton"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

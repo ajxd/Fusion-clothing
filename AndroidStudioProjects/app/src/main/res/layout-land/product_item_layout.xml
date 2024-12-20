@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/productCardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="50dp"
+  app:cardBackgroundColor="#FFFFFF"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:ignore="TextSizeCheck">
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="183dp"
+            android:layout_height="169dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:ignore="TextContrastCheck"
+            tools:text="Round neck T shirts" />
+
+        <TextView
+            android:id="@+id/productDescription"
+            android:layout_width="114dp"
+            android:layout_height="2dp"
+            android:text="@string/product_description"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:ignore="TextContrastCheck,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

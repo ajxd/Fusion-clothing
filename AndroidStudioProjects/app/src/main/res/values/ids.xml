@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="decreaseQuantityButton" type="id" />
+    <item name="quantityView" type="id" />
+    <item name="increaseQuantityButton" type="id" />
+    <item name="removeButton" type="id" />
+    <item name="productDetailImage" type="id" />
+    <item name="productDetailName" type="id" />
+    <item name="productDetailDescription" type="id" />
+    <item name="additionalDetails" type="id" />
+</resources>

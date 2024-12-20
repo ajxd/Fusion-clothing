@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ajai_Kamaraj_Application2</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="todo">TODO</string>
+    <string name="hy">hy</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="cart_button" />
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_in_with_phone">Sign in with Phone</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="send_otp">Send OTP</string>
+</resources>
